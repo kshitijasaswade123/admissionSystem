@@ -7,17 +7,18 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:4000/api/admission",
+			"name": "get Admission",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:4000/api/admission",
-					"protocol": "http",
+					"raw": "https://admissionsystem.onrender.com/api/admission",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"admissionsystem",
+						"onrender",
+						"com"
 					],
-					"port": "4000",
 					"path": [
 						"api",
 						"admission"
@@ -27,7 +28,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:4000/api/admission",
+			"name": "post admission",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -41,12 +42,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:4000/api/admission",
-					"protocol": "http",
+					"raw": "https://admissionsystem.onrender.com/api/admission",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"admissionsystem",
+						"onrender",
+						"com"
 					],
-					"port": "4000",
 					"path": [
 						"api",
 						"admission"
@@ -56,7 +58,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:4000/api/admission/6631e1706bcef263786d8e45",
+			"name": "update admission",
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -70,12 +72,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:4000/api/admission/6631e1706bcef263786d8e45",
-					"protocol": "http",
+					"raw": "https://admissionsystem.onrender.com/api/admission/6631e1706bcef263786d8e45",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"admissionsystem",
+						"onrender",
+						"com"
 					],
-					"port": "4000",
 					"path": [
 						"api",
 						"admission",
@@ -86,17 +89,18 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:4000/api/admission/6631e1cf6bcef263786d8e49",
+			"name": "delete admission",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:4000/api/admission/6631e1cf6bcef263786d8e49",
-					"protocol": "http",
+					"raw": "https://admissionsystem.onrender.com/api/admission/6631e1cf6bcef263786d8e49",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"admissionsystem",
+						"onrender",
+						"com"
 					],
-					"port": "4000",
 					"path": [
 						"api",
 						"admission",
