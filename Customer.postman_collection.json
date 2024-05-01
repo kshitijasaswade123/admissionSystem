@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "7e4edc2d-ab1c-45a9-b614-7806d8382342",
+		"name": "Customer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32248950"
+	},
+	"item": [
+		{
+			"name": "https://customer-kc7g.onrender.com/api/Custmerdata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://customer-kc7g.onrender.com/api/Custmerdata",
+					"protocol": "https",
+					"host": [
+						"customer-kc7g",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"Custmerdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://customer-kc7g.onrender.com/api/Custmerdata",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"shardul\",\r\n    \"mobileNo\":\"9850355600\",\r\n    \"cityName\":\"tasgoav\",\r\n    \"itemName\":\"tv\",\r\n    \"price\" :\"14000\",\r\n    \"totalBill\":\"14000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://customer-kc7g.onrender.com/api/Custmerdata",
+					"protocol": "https",
+					"host": [
+						"customer-kc7g",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"Custmerdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://customer-kc7g.onrender.com/api/Custmerdata/6613b891c0040dab524cc04b",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://customer-kc7g.onrender.com/api/Custmerdata/6613b891c0040dab524cc04b",
+					"protocol": "https",
+					"host": [
+						"customer-kc7g",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"Custmerdata",
+						"6613b891c0040dab524cc04b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://customer-kc7g.onrender.com/api/Custmerdata/6613bb608729e1a229e15f53",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"shardul\",\r\n    \"mobileNo\":\"9850355600\",\r\n    \"cityName\":\"tasgoav\",\r\n    \"itemName\":\"tv\",\r\n    \"price\" :\"15000\",\r\n    \"totalBill\":\"15000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://customer-kc7g.onrender.com/api/Custmerdata/6613bb608729e1a229e15f53",
+					"protocol": "https",
+					"host": [
+						"customer-kc7g",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"Custmerdata",
+						"6613bb608729e1a229e15f53"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
